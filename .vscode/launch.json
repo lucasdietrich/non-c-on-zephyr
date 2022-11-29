@@ -1,0 +1,15 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+        {
+            "name": "(gdb) mps2_an385",
+            "cwd": "${workspaceRoot}",
+            "executable": "04-rust-zephyr-hello/build/zephyr/zephyr.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "external",
+            "gdbTarget": "localhost:1234",
+            "runToEntryPoint": "main",
+        }
+	]
+}
